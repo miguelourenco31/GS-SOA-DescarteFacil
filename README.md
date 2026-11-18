@@ -169,17 +169,6 @@ Content-Type: application/json
 `400` validação · `404` não encontrado · `409` duplicidade ou recurso em uso.
 
 
-## Evidências da aplicação
-
-Coloque aqui os prints (pasta `docs/evidencias/`):
-
-- [ ] Swagger UI com todos os endpoints
-- [ ] Tabelas criadas no MySQL e tabela `flyway_schema_history`
-- [ ] `GET /api/ecopontos/proximos` mostrando `lotado: true` e `lotado: false`
-- [ ] `POST /api/cacambas/{id}/leituras` e a busca de ecopontos mudando de resultado
-- [ ] `GET /api/rotas-cata-bagulho/buscar`
-- [ ] `GET /api/ocorrencias/resumo-por-bairro`
-- [ ] Resultado do `mvn test` (BUILD SUCCESS)
 
 ## Integração com o restante da CitizenTech
 
