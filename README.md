@@ -168,15 +168,6 @@ Content-Type: application/json
 
 `400` validação · `404` não encontrado · `409` duplicidade ou recurso em uso.
 
-## Critérios de avaliação × onde está no projeto
-
-| Critério | Pontos | Onde |
-|----------|--------|------|
-| Estruturação do domínio | 3,0 | `domain/`, `dto/`, `service/`, `controller/`, `exception/` |
-| Conexão com banco de dados | 3,0 | `application.properties` (MySQL) + `repository/` |
-| Migrações | 1,5 | `src/main/resources/db/migration` (Flyway V1, V2) |
-| Documentação automática | 1,5 | Swagger UI em `/swagger-ui.html` |
-| Testes automatizados | 1,0 | `src/test` (unitários + integração) |
 
 ## Evidências da aplicação
 
